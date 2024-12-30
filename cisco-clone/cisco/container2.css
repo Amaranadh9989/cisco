@@ -1,0 +1,42 @@
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.container-2 div a {
+    text-decoration: none;
+    display: flex;              
+    flex-direction: column;      
+    justify-content: center;    
+    align-items: center;  
+    color:#1B1C1D;    
+    font-weight: bold;   
+}
+.container-2 div a:hover{
+    text-decoration: underline;
+}
+.container-2 img {
+    width: 32px;
+    height: auto;
+    margin-bottom: 10px;        
+}
+
+.container-2 div span {
+    font-size: 14px;
+    color: #333;
+}

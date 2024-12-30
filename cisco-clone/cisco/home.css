@@ -1,0 +1,32 @@
+*{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+
+}
+  @font-face {
+    font-family: 'CiscoFont'; /* Name of the font */
+    src: url('path/to/cisco-font.woff2') format('woff2'),
+         url('path/to/cisco-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+    margin: 0;
+    padding: 0;
+ 
+
+}
+a{
+  text-decoration: none;
+  
+}

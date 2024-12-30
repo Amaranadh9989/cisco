@@ -1,0 +1,54 @@
+.container-1 {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  .container-1_img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .container-1-text {
+      position: absolute;
+      top: 52%;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      width: 38%;
+      margin-left: 120px;
+  }
+  
+  .container-1-text h1 {
+      font-size: 62px;
+      margin-bottom: 10px;
+      font-weight: 100;
+      line-height: 1.2;
+  }
+  
+  .container-1-text p {
+      font-size: 15px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+  }
+  
+  .container-1-text button {
+      padding: 15px 30px;
+      background-color: white;
+      color: #1B1C1D;
+      border: none;
+      border-radius: 30px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  
+  .container-1-text button:hover {
+      background-color: rgba(188, 179, 179, 0.8);
+      color: black;
+      transition: all 0.3s ease;
+  }
+  .tab-background-img{
+    display: none;
+  }
+  

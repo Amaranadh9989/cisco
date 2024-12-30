@@ -1,0 +1,67 @@
+.AI-scale{
+      display:flex;
+      
+}
+.AI-scale-left{
+      width:900px;
+  
+}
+.AI-scale-left img{
+      width:620px;
+      margin-left: 120px;
+}
+.AI-scale-right{
+      width:455px;
+      margin-top: 70px;
+      line-height: 1.5;
+      margin-left: 40px;
+}
+.AI-scale-right-title{
+      font-size: 32.5px;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+.AI-scale-right-button{
+     color:#0070D2;
+     border: none;
+     border: 1px solid #0070D2;
+     font-size: 18px;
+     padding:10px 18px;
+     border-radius: 30px;
+     margin-top: 30px;
+     background-color: #ffffff;
+}
+/*container 6*/
+.Cisco-Nexus{
+      display:flex;
+      margin-top: 130px;
+      margin-bottom: 80px;
+}
+.Cisco-Nexus-left{
+      width:480px;
+      margin-left: 120px;
+      margin-right: 160px;
+      margin-top: 50px;
+      line-height: 1.2;
+}
+.Cisco-Nexus-right{
+      width:700px;
+}
+.Cisco-Nexus-right img{
+      width:620px;
+}
+.Cisco-Nexus-title{
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: bold;
+}
+.Cisco-Nexus-left-button{
+      margin-top: 30px;
+      border:none;
+      border:1px solid #0070D2;
+      font-size:18px;
+      color:#0070D2;
+      padding:10px 18px;
+      border-radius: 30px;
+      background-color: #ffffff;
+}
