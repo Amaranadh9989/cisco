@@ -1,0 +1,343 @@
+/*mackbook view */
+@media (max-width: 1280px) and (min-width: 1114px){
+      
+.Inside-Cisco-container{
+      margin-bottom: 55px;
+}
+
+.Inside-Cisco-heading{
+      margin-left: 70px;
+}
+.morenews-moreevents{
+   margin-top: 10px;
+      margin-right: 70px;
+      
+}
+
+.Inside-Cisco-table{
+     display:grid;
+     grid-template-columns: repeat(3, 330px);
+     row-gap: 60px;
+     column-gap: 70px;
+     margin-bottom: 20px;
+}
+.Inside-Cisco-table-container{
+      width:330px;
+      height:140px;
+}
+.Inside-Cisco-table-container p{
+     width:320px;
+font-size:20px;
+font-weight: 100;
+}
+}
+
+/*microsoft surface duo*/
+@media (max-width: 1200px) and (min-width: 1100px){
+
+.Inside-Cisco-container{
+      margin-bottom: 35px;
+}
+
+.Inside-Cisco-heading{
+      margin-left: 70px;
+}
+.morenews-moreevents{
+   margin-top: 10px;
+      margin-right: 70px;
+      
+}
+
+.Inside-Cisco-table{
+     display:grid;
+     grid-template-columns: repeat(3, 320px);
+     row-gap: 60px;
+     margin-bottom: 30px;
+}
+.Inside-Cisco-table-container{
+      width:270px;
+      height:170px;
+}
+}
+/*tab view*/
+@media (max-width: 1024px) and (min-width: 768px){
+      .morenews-moreevents{
+            display:none;
+      }
+      .Inside-Cisco{
+            margin-bottom: 50px;
+      }
+      .Inside-Cisco-container{
+            display: flex;
+            justify-content: center;
+      }
+      .Inside-Cisco-heading{
+            margin-left:0px;
+            font-size: 35px;
+            font-weight: bold;
+      }
+      .morenews-moreevents-hide{
+            display: block;
+      }
+      .Inside-Cisco-table{
+            display:grid;
+            grid-template-columns: 1fr;
+            margin-left: 80px;
+          
+       }
+       .Inside-Cisco-table-container{
+            width:750px;
+            
+       }
+       .Inside-Cisco-table-container p{
+            font-size: 25px;
+            font-weight: 100;
+       }
+       .Inside-Cisco-table-container h4{
+            font-size:28px;
+       }
+       .Inside-Cisco-table-container a{
+            font-size: 20px;
+        
+      }
+      .Inside-Cisco-table-container a i{
+            font-size: 15px;
+      }
+
+      /*hide content*/
+      .morenews-moreevents-hide{
+           display: flex;
+           margin-top: 50px;
+           justify-content: center;
+      }
+      .morenews-moreevents-hide a{
+            padding-left: 20px;
+            font-size: 23px;
+            font-weight: bold;
+            color:#0070D2;
+           
+      }
+      .morenews-moreevents-hide a:hover{
+            text-decoration: underline;
+      }
+      .morenews-moreevents-hide a i{
+            font-size: 10px;
+            margin-left: 5px;
+      }
+}
+
+/* Responsive Styles for mobile screen 412 screen */
+@media (max-width: 767px) and (min-width:412px){
+      .morenews-moreevents{
+            display:none;
+      }
+      
+      .Inside-Cisco{
+            margin-bottom: 40px;
+      }
+      .Inside-Cisco-container{
+            display: flex;
+            justify-content: center;
+      }
+      .Inside-Cisco-heading{
+            margin-left:0px;
+            font-size: 28px;
+            font-weight: 500;
+      }
+      .morenews-moreevents-hide{
+            display: block;
+      }
+      .Inside-Cisco-table{
+            display:grid;
+            grid-template-columns: 380px;
+            margin-left: 15px;
+          
+       }
+       .Inside-Cisco-table-container{
+            width:380px;
+            
+       }
+       .Inside-Cisco-table-container p{
+            font-size: 20px;
+            font-weight: 100;
+       }
+       .Inside-Cisco-table-container h4{
+            font-size:17px;
+       }
+       .Inside-Cisco-table-container a{
+            font-size: 18px;
+        
+      }
+      .Inside-Cisco-table-container a i{
+            font-size: 15px;
+      }
+
+      /*hide content*/
+      .morenews-moreevents-hide{
+           display: flex;
+           margin-top: 40px;
+           justify-content: center;
+           margin-bottom: 40px;
+      }
+      .morenews-moreevents-hide a{
+            padding-left: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color:#0070D2;
+           
+      }
+      .morenews-moreevents-hide a:hover{
+            text-decoration: underline;
+      }
+      .morenews-moreevents-hide a i{
+            font-size: 15px;
+            margin-left: 5px;
+      }
+      .stright-line-hide{
+            display:block;
+      }
+}
+
+/* Responsive Styles for mobile 375*/
+@media (max-width: 410px) and (min-width:375px){
+      .morenews-moreevents{
+            display:none;
+      }
+      
+      .Inside-Cisco{
+            margin-bottom: 40px;
+      }
+      .Inside-Cisco-container{
+            display: flex;
+            justify-content: center;
+      }
+      .Inside-Cisco-heading{
+            margin-left:0px;
+            font-size: 28px;
+            font-weight: 600;
+      }
+      .morenews-moreevents-hide{
+            display: block;
+      }
+      .Inside-Cisco-table{
+            display:grid;
+            grid-template-columns: 380px;
+            margin-left: 15px;
+          
+       }
+       .Inside-Cisco-table-container{
+            width:370px;
+            height:149px;
+       }
+       .Inside-Cisco-table-container p{
+            font-size: 22px;
+            font-weight: 100;
+       }
+       .Inside-Cisco-table-container h4{
+            font-size:17px;
+       }
+       .Inside-Cisco-table-container a{
+            font-size: 18px;
+        
+      }
+      .Inside-Cisco-table-container a i{
+            font-size: 15px;
+      }
+
+      /*hide content*/
+      .morenews-moreevents-hide{
+           display: flex;
+           margin-top: 40px;
+           justify-content: center;
+           margin-bottom: 40px;
+      }
+      .morenews-moreevents-hide a{
+            padding-left: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color:#0070D2;
+           
+      }
+      .morenews-moreevents-hide a:hover{
+            text-decoration: underline;
+      }
+      .morenews-moreevents-hide a i{
+            font-size: 15px;
+            margin-left: 5px;
+      }
+      .stright-line-hide{
+            display:block;
+      }  
+}
+
+/* Responsive Styles for mobile */
+@media (max-width: 360px){
+      .morenews-moreevents{
+            display:none;
+      }
+      
+      .Inside-Cisco{
+            margin-bottom: 40px;
+      }
+      .Inside-Cisco-container{
+            display: flex;
+            justify-content: center;
+      }
+      .Inside-Cisco-heading{
+            margin-left:0px;
+            font-size: 28px;
+            font-weight: 600;
+      }
+      .morenews-moreevents-hide{
+            display: block;
+      }
+      .Inside-Cisco-table{
+            display:grid;
+            grid-template-columns: 310px;
+            
+       }
+       .Inside-Cisco-table-container{
+            width:280px;
+            height:149px;
+            margin-left: 15px;
+       }
+       .Inside-Cisco-table-container p{
+            font-size: 20px;
+            font-weight: 100;
+       }
+       .Inside-Cisco-table-container h4{
+            font-size:17px;
+       }
+       .Inside-Cisco-table-container a{
+            font-size: 18px;
+        
+      }
+      .Inside-Cisco-table-container a i{
+            font-size: 15px;
+      }
+
+      /*hide content*/
+      .morenews-moreevents-hide{
+           display: flex;
+           margin-top: 40px;
+           justify-content: center;
+           margin-bottom: 40px;
+      }
+      .morenews-moreevents-hide a{
+            padding-left: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color:#0070D2;
+           
+      }
+      .morenews-moreevents-hide a:hover{
+            text-decoration: underline;
+      }
+      .morenews-moreevents-hide a i{
+            font-size: 15px;
+            margin-left: 5px;
+      }
+      .stright-line-hide{
+            display:block;
+      }  
+}

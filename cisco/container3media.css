@@ -1,0 +1,280 @@
+/*mackbook view */
+@media (max-width: 1280px) and (min-width: 1114px){
+.gallery{
+ width: 360px;
+ height:450px;
+}
+.gallery-image img{
+ width:360px;
+height:190px;
+}
+.gallery-text{
+ width:360px;
+
+}
+.gallery-text .heading{
+     width:280px;
+     font-size: 19px;
+     font-weight: 100;
+}
+.gallery-text .content{
+  font-size: 17px;
+}
+}
+/*microsoft surface duo*/
+
+@media (max-width: 1200px) and (min-width: 1100px){
+      
+.container-3-heading-container{
+     font-size: 32px;
+     font-weight:bolder;
+}
+ .cisco-span2-text{
+      display:block;
+      text-align: center;
+}
+.products-gallery{
+  gap:20px;
+  box-sizing: border-box;
+}
+.gallery{
+  width: 320px;
+}
+.gallery-image img{
+  width:320px;
+height:180px;
+}
+.gallery-text{
+  width:330px;
+  height:370px;
+ font-weight: 100;
+
+}
+.gallery-text .content{
+      width:280px;
+      font-size: 20px;
+}
+.gallery-text .button{
+position: absolute;
+margin-top: 19px;
+font-size: 20px;
+color:#0070d2;
+text-decoration: none;
+transition:  'text-decoration' 1s ;
+}
+.gallery-text .button:hover{
+  text-decoration: underline;
+}
+.gallery-text a i{
+  font-size: 13px;
+}
+}
+/*tab view*/
+@media (max-width: 1024px) and (min-width: 768px){
+  .container-3-heading{
+    width:600px;
+  }
+.container-3-heading{
+  font-size: 40px;
+}
+.container-3-heading span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.container-3-heading .cisco-across{
+  margin-left: 210px;
+}
+.products-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,800px);
+  justify-content: center;
+  
+
+}
+.gallery{
+  width:800px;
+margin:auto auto;
+}
+.gallery-image img{
+  width:800px;
+  height:500px;
+}
+.gallery-text{
+  width:800px;
+}
+.gallery-text .content{
+  width:750px;
+  font-size: 20px;
+}
+.gallery-text .button{
+  font-size: 28px;
+}
+.gallery-text a i{
+  font-size: 18px;
+}
+}
+
+/* Responsive Styles for mobile screen 412 screen */
+@media (max-width: 767px) and (min-width:412px){
+  .container-3-heading{
+    width:400px;
+  }
+.container-3-heading{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.container-3-heading span{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.container-3-heading .cisco-across{
+  margin-left: 100px;
+}
+.products-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,400px);
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+.gallery{
+  width:400px;
+margin:auto auto;
+}
+.gallery-image img{
+  width:370px;
+  height:230px;
+  margin-left: 15px;
+}
+.gallery-text{
+  width:400px;
+}
+.gallery-text .content{
+  width:300px;
+  font-size: 16px;
+}
+.gallery-text .button{
+  font-size: 18px;
+  font-weight: bold;
+}
+.gallery-text a i{
+  font-size: 15px;
+}
+}
+
+/* Responsive Styles for mobile 375*/
+@media (max-width: 410px) and (min-width:375px){
+  .container-3-heading{
+    display: none;
+  }
+.container-3-heading-hide{/*mobile view hwading*/
+  display:block;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-3-heading1{
+  text-align: center;
+}
+.products-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,400px);
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+.gallery{
+  width:350px;
+  height:510px;
+margin:auto auto;
+}
+.gallery-image img{
+  width:350px;
+  height:200px;
+  
+}
+.gallery-text{
+  width:350px;
+  height:300px;
+  padding-top: 30px;
+}
+.gallery-text .heading{
+
+  width: 300px;
+  font-size: 23px;
+  font-weight: 100;
+}
+.gallery-text .content{
+  width:280px;
+  font-size: 16px;
+}
+.gallery-text .button{
+  font-size: 18px;
+  font-weight: bold;
+}
+.gallery-text a i{
+  font-size: 15px;
+}
+}
+
+/* Responsive Styles for mobile */
+@media (max-width: 360px){
+
+  .container-3-heading{
+    display: none;
+  }
+.container-3-heading-hide{/*mobile view hwading*/
+  display:block;
+  width:290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+}
+.container-3-heading1{
+  text-align: center;
+  
+}
+.products-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,400px);
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+.gallery{
+  width:289px;
+  height:490px;
+margin:auto auto;
+}
+.gallery-image img{
+  width:289px;
+  height:170px;
+  
+}
+.gallery-text{
+  width:289px;
+  height:312px;
+  padding-top: 30px;
+}
+.gallery-text .heading{
+
+  width: 230px;
+  font-size: 22px;
+  font-weight: 100;
+}
+.gallery-text .content{
+  width:200px;
+  font-size: 16px;
+}
+.gallery-text .button{
+  font-size: 15px;
+  font-weight: bold;
+}
+.gallery-text a i{
+  font-size: 13px;
+}
+}

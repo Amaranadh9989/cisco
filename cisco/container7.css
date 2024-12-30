@@ -1,0 +1,72 @@
+.Inside-Cisco{
+      position: relative;
+}
+.Inside-Cisco-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 35px;
+}
+
+.Inside-Cisco-heading{
+      margin-left: 120px;
+      font-size: 30px;
+      font-weight: bold;
+}
+.morenews-moreevents{
+      margin-top: 10px;
+      margin-right: 130px;
+     
+      
+}
+.morenews-moreevents a{
+      padding-left: 20px;
+      font-size: 17px;
+      font-weight: bold;
+     
+      color:#0070D2;
+     
+}
+.morenews-moreevents a:hover{
+      text-decoration: underline;
+}
+.morenews-moreevents a i{
+      font-size: 10px;
+      margin-left: 5px;
+}
+.Inside-Cisco-table{
+     display:grid;
+     grid-template-columns: repeat(3, 425px);
+     row-gap: 60px;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 35px;
+}
+.Inside-Cisco-table-container{
+      width:340px;
+      height:140px;
+}
+.Inside-Cisco-table-container h4{
+      font-size: 18px;
+      margin-bottom: 18px;
+      }
+.Inside-Cisco-table-container p{
+      margin-bottom: 15px;
+font-size:18px;
+font-weight: bold;
+}
+.Inside-Cisco-table-container a{
+      font-size: 16px;
+      font-weight: bold;
+      color:#0070D2;
+}
+.Inside-Cisco-table-container a:hover{
+      text-decoration: underline;
+}
+.Inside-Cisco-table-container a i{
+      font-size: 10px;
+      margin-left: 10px;
+}
+.morenews-moreevents-hide{
+      display: none;
+}
