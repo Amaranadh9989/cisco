@@ -1,0 +1,96 @@
+/*mackbook view */
+@media (max-width: 1280px) and (min-width: 1114px){
+    .container-2 {
+        margin-top: 42px;
+        gap:30px;
+    }
+    .container-2 img {
+        width: 45px;      
+    }
+}
+/*microsoft surface duo*/
+@media (max-width: 1200px) and (min-width: 1100px){
+      .container-2 {
+            margin-top: 40px;
+            gap:25px;
+        }
+        .container-2 img {
+            width: 35px;       
+        }
+        
+}
+/*tab view*/
+@media (max-width: 1024px) and (min-width: 768px){
+    .container-2 {
+        display:grid;
+        grid-template-columns: repeat(3,250px);
+        row-gap: 58px;
+
+    }  
+    .container-2 img {
+        width: 52px;      
+    } 
+    .container-2,div span {
+        font-size: 24px;
+        color: #333;
+    }
+    
+}
+/* Responsive Styles for mobile screen 412 screen */
+@media (max-width: 767px) and (min-width:412px){
+    .container-2 {
+        display:grid;
+        grid-template-columns: repeat(2,120px);
+        row-gap: 28px;
+        column-gap: 80px;
+        margin-bottom: 0px;
+
+    }  
+    .container-2 img {
+        width: 35px;      
+    } 
+    .container-2,div span {
+        font-size: 15px;
+        color: #333;
+    }
+     
+}
+
+/* Responsive Styles for mobile 375*/
+@media (max-width: 410px) and (min-width:375px){
+    .container-2 {
+        display:grid;
+        grid-template-columns: repeat(2,110px);
+        row-gap: 28px;
+        column-gap: 70px;
+        margin-bottom: 0px;
+
+    }  
+    .container-2 img {
+        width: 35px;      
+    } 
+    .container-2,div span {
+        font-size: 15px;
+        color: #333;
+    }
+}
+
+/* Responsive Styles for mobile */
+@media (max-width: 360px){
+
+    .container-2 {
+        display:grid;
+        grid-template-columns: repeat(2,110px);
+        row-gap: 28px;
+        column-gap: 50px;
+        margin-bottom: 0px;
+
+    }  
+    .container-2 img {
+        width: 35px;      
+    } 
+    .container-2,div span {
+        font-size: 15px;
+        color: #333;
+    }
+}

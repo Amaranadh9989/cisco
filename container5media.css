@@ -1,0 +1,433 @@
+/*mack book screen*/
+@media (max-width: 1280px) and (min-width: 1114px){
+   
+.AI-scale-left{
+      width:550px;
+      box-sizing: border-box;
+
+}
+.AI-scale-left img{
+      width:560px;
+      height:300px;
+      margin-left: 70px;
+}
+.AI-scale-right{
+      margin-top: 0px;
+      margin-left:180px;
+      width:450px;
+      margin-left: 200px;
+      
+}
+.AI-scale-right-title{
+      width:400px;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 10px;
+}
+.AI-scale-right-text{
+      width:450px;
+}
+
+/*container 6*/
+.Cisco-Nexus{
+      margin-bottom: 80px;
+}
+.Cisco-Nexus-left{
+      width:480px;
+      height:300px;
+      margin-left: 70px;
+      margin-top: 0px;
+      margin-right: 0px;
+    
+}
+
+.Cisco-Nexus-right{
+      width:auto;
+}
+.Cisco-Nexus-right img{
+      width:560px;
+      height:300px;
+      margin-left: 100px;
+}
+.Cisco-Nexus-title{
+      margin-top: 40px;
+      width:400px;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: bold;
+}
+.Cisco-Nexus-left-text{
+      width:470px;
+}
+}
+
+/*microsoft surface duo*/
+@media (max-width: 1200px) and (min-width: 1100px){
+
+.AI-scale-left{
+      width:500px;
+      box-sizing: border-box;
+
+}
+.AI-scale-left img{
+      width:470px;
+      height:280px;
+      margin-left: 70px;
+}
+.AI-scale-right{
+      margin-top: 0px;
+      margin-left: 140px;
+      width:400px;
+      
+}
+.AI-scale-right-title{
+      
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+
+/*container 6*/
+.Cisco-Nexus{
+      margin-bottom: 80px;
+}
+.Cisco-Nexus-left{
+      width:400px;
+      margin-left: 70px;
+      margin-top: 0px;
+      margin-right: 0px;
+    
+}
+
+.Cisco-Nexus-right{
+      width:480px;
+}
+.Cisco-Nexus-right img{
+      width:470px;
+      height:280px;
+      margin-left: 100px;
+}
+.Cisco-Nexus-title{
+      width:380px;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: bold;
+}
+
+}
+/*tab view*/
+@media (max-width: 1024px) and (min-width: 768px){
+.AI-scale{
+      display: flex;
+      flex-direction: column;
+}
+.AI-scale-left{
+      width:700px;
+      height:400px;
+
+}
+.AI-scale-left img{
+      width:700px;
+      height:400px;
+      margin-left: 70px;
+}
+.AI-scale-right{
+      margin-left: 70px;
+      width:800px;
+      
+}
+.AI-scale-right-title{
+      font-size: 50px;
+      margin-bottom: 10px;
+}
+.AI-scale-right-text{
+      font-size: 22px;
+      font-weight: 100;
+}
+.AI-scale-right-button{
+      font-size: 23px;
+      padding:15px 20px;
+ }
+
+/*container 6*/
+.Cisco-Nexus{
+     display: flex;
+     flex-direction: column-reverse;
+}
+.Cisco-Nexus-left{
+      width:800px;
+      margin-left: 70px;
+      margin-bottom: 30px;
+    
+}
+
+.Cisco-Nexus-right{
+      width:700px;
+      height:400px;
+      margin-bottom: 25px;
+}
+.Cisco-Nexus-right img{
+      min-width:700px;
+      height:400px;
+      margin-left: 70px;
+}
+.Cisco-Nexus-title{
+      font-size: 50px;
+      margin-bottom: 20px;
+      font-weight: bold;
+}
+.Cisco-Nexus-left-text{
+      font-size: 22px;
+      font-weight: 100;   
+}
+.Cisco-Nexus-left-button{
+      font-size: 23px;
+      padding:15px 20px;
+}
+}
+
+/* Responsive Styles for mobile screen 412 screen */
+@media (max-width: 767px) and (min-width:412px){
+
+      .AI-scale{
+            display: flex;
+            flex-direction: column;
+      }
+      .AI-scale-left{
+            width:315px;
+            height:180px;
+      
+      }
+      .AI-scale-left img{
+            width:315px;
+            height:180px;
+            margin-left:15px;
+      }
+      .AI-scale-right{
+            margin-left: 15px;
+            width:360px;
+            position: relative;
+            top:-15px;
+            
+      }
+      .AI-scale-right-title{
+            font-size: 24px;
+            font-weight:500;
+            margin-bottom: 14px;
+      }
+      .AI-scale-right-text{
+            font-size: 16px;
+            font-weight: 100;
+           
+      }
+      .AI-scale-right-button{
+            font-size: 15px;
+            padding:15px 21px;
+            margin-top:20px;
+       }
+      
+      /*container 6*/
+      .Cisco-Nexus{
+           display: flex;
+           flex-direction: column-reverse;
+           margin-top: 100px;
+      }
+      .Cisco-Nexus-left{
+            position: relative;
+            top:-15px;
+            width:380px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+          
+      }
+      
+      .Cisco-Nexus-right{
+            width:315px;
+            height:180px;
+            margin-bottom: 25px;
+      }
+      .Cisco-Nexus-right img{
+            width:315px;
+            height:180px;
+            margin-left:15px;
+      }
+      .Cisco-Nexus-title{
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+      }
+      .Cisco-Nexus-left-text{
+            font-size: 16px;
+            font-weight: 100;   
+      }
+      .Cisco-Nexus-left-button{
+            font-size: 15px;
+            padding:15px 21px;
+            margin-top:20px;
+      }
+}
+
+/* Responsive Styles for mobile 375*/
+@media (max-width: 410px) and (min-width:375px){
+      .AI-scale{
+            display: flex;
+            flex-direction: column;
+      }
+      .AI-scale-left{
+            width:315px;
+            height:180px;
+      
+      }
+      .AI-scale-left img{
+            width:315px;
+            height:180px;
+            margin-left:15px;
+      }
+      .AI-scale-right{
+            margin-left: 15px;
+            width:350px;
+            position: relative;
+            top:-15px;
+            
+      }
+      .AI-scale-right-title{
+            font-size: 28px;
+            font-weight:600;
+            margin-bottom: 14px;
+      }
+      .AI-scale-right-text{
+            font-size: 16px;
+            font-weight: 100;
+           
+      }
+      .AI-scale-right-button{
+            font-size: 15px;
+            padding:15px 25px;
+            margin-top:20px;
+       }
+      
+      /*container 6*/
+      .Cisco-Nexus{
+           display: flex;
+           flex-direction: column-reverse;
+           margin-top: 100px;
+      }
+      .Cisco-Nexus-left{
+            position: relative;
+            top:-15px;
+            width:350px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+          
+      }
+      
+      .Cisco-Nexus-right{
+            width:315px;
+            height:180px;
+            margin-bottom: 25px;
+      }
+      .Cisco-Nexus-right img{
+            width:315px;
+            height:180px;
+            margin-left:15px;
+      }
+      .Cisco-Nexus-title{
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+      }
+      .Cisco-Nexus-left-text{
+            font-size: 16px;
+            font-weight: 100;   
+      }
+      .Cisco-Nexus-left-button{
+            font-size: 15px;
+            padding:15px 25px;
+            margin-top:20px;
+      }
+}
+
+/* Responsive Styles for mobile */
+@media (max-width: 360px){
+      .AI-scale{
+            display: flex;
+            flex-direction: column;
+           height:485px;
+      }
+      .AI-scale-left{
+            position: relative;
+            top:-5px;
+            width:230px;
+            height:140px;
+      
+      }
+      .AI-scale-left img{
+            width:235px;
+            height:140px;
+            margin-left:15px;
+      }
+      .AI-scale-right{
+            margin-left: 15px;
+            width:280px;
+            height:310px;
+            position: relative;
+            top:-40px;
+            
+      }
+      .AI-scale-right-title{
+            font-size: 25px;
+            font-weight:600;
+            margin-bottom: 14px;
+      }
+      .AI-scale-right-text{
+            font-size: 16px;
+            font-weight: 100;
+           
+      }
+      .AI-scale-right-button{
+            font-size: 15px;
+            padding:15px 25px;
+            margin-top:20px;
+       }
+      
+      /*container 6*/
+      .Cisco-Nexus{
+           display: flex;
+           flex-direction: column-reverse;
+           margin-top: 90px;
+      }
+      .Cisco-Nexus-left{
+            position: relative;
+            top:-15px;
+            width:290px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+          
+      }
+      
+      .Cisco-Nexus-right{
+            width:235px;
+            height:140px;
+            margin-bottom: 10px;
+      }
+      .Cisco-Nexus-right img{
+            width:235px;
+            height:140px;
+            margin-left:15px;
+      }
+      .Cisco-Nexus-title{
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: 20px;
+      }
+      .Cisco-Nexus-left-text{
+            font-size: 16px;
+            font-weight: 100;   
+      }
+      .Cisco-Nexus-left-button{
+            font-size: 15px;
+            padding:15px 25px;
+            margin-top:20px;
+      }
+}
